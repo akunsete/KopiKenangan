@@ -1,0 +1,212 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url(https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg?auto=compress&cs=tinysrgb&w=400);
+   
+}
+
+.container {
+    width: 80%;
+    overflow: hidden;
+}
+
+.span1 {
+
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+
+}
+
+.coffe{
+
+    cursor: pointer;
+    margin-right: 50px;
+
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+header h1 {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+.nav-item {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    position: relative;
+    font-size: 16px;
+    padding: 3px;
+}
+
+.nav-item::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    transition: width 0.3s;
+}
+
+.nav-item:hover::after {
+    width: 100%;
+}
+
+#hero {
+    position: relative;
+    text-align: center;
+}
+
+.images-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.coffee-image {
+    width: 28%;
+    margin: 0 10px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.coffee-img {
+    width: 100%;
+    height: auto;
+}
+
+.paragraf {
+
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+p {
+
+    font-size: 22px;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+
+.Informasi {
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" -6;
+    font-size: 18px;
+}
+
+.btn {
+    margin: 0px;
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 15px 12px;
+    text-decoration: none;
+    border-radius: 18px;
+    margin-bottom: 100px;
+}
+
+.btn:hover {
+
+    background-color: rgb(88, 88, 88);
+
+}
+
+#menu {
+
+    padding: 6px;
+    border-radius: 25px;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    margin-bottom: 150px;
+    
+
+}
+
+.menu-item1 {
+    background-color: rgba(152, 152, 152, 0.400);
+    color: #ffffff;
+    border-radius: 16px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+
+.SIMBOL1 {
+
+    color: rgb(0, 244, 0);
+    font-size: 40px;
+
+}
+
+hr {
+
+
+    border-top: 6px solid rgb(0, 0, 0);
+
+}
+
+.about {
+
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.contact {
+
+    font-size: 20px;
+    text-align: center;
+
+}
+
+footer {
+
+    text-align: center;
+
+}
+
+.I1 {
+
+    cursor: pointer;
+
+}
+
+.Roboto {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
