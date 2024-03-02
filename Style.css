@@ -2,7 +2,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -15,20 +14,6 @@ body {
 .container {
     width: 80%;
     overflow: hidden;
-}
-
-.span1 {
-
-    font-family: "Lora", serif;
-    font-optical-sizing: auto;
-
-}
-
-.coffe{
-
-    cursor: pointer;
-    margin-right: 50px;
-
 }
 
 header {
@@ -187,7 +172,6 @@ hr {
 
 .contact {
 
-    font-size: 20px;
     text-align: center;
 
 }
