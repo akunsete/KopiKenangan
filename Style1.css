@@ -68,56 +68,90 @@ h2 {
     margin-bottom: 30px;
 }
 
-.coffee-list {
+.menu-section {
+    margin-bottom: 50px;
+}
+
+.menu-section h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.coffee-list,
+.tea-list,
+.food-list,
+.snack-list {
     list-style: none;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.coffee-list li {
+.coffee-list li,
+.tea-list li,
+.food-list li,
+.snack-list li {
     width: 300px;
     background: #fff;
-    padding: 15px;
-    margin: 10px;
-    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.coffee-info h3 {
+.coffee-info h4,
+.tea-info h4,
+.food-info h4,
+.snack-info h4 {
     color: #333;
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 
-.coffee-info p {
+.coffee-info p,
+.tea-info p,
+.food-info p,
+.snack-info p {
     color: #666;
     font-size: 16px;
     margin-bottom: 10px;
 }
 
-.coffee-image {
+.coffee-image,
+.tea-image,
+.food-image,
+.snack-image {
     width: 100%;
     margin-top: 20px;
     overflow: hidden;
 }
 
-.coffee-img {
+.coffee-img,
+.tea-img,
+.food-img,
+.snack-img {
     width: 100%;
     height: auto;
 }
 
-.buy-btn {
+.btn-buy {
     display: inline-block;
     background: #333;
     color: #fff;
-    padding: 8px 16px;
+    padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 18px;
     transition: background 0.3s;
+    margin-top: 10px;
 }
 
-.buy-btn:hover {
-    background: #7e7e7e;
+.btn-buy:hover {
+    background: #555;
+}
+
+span {
+
+    color: #fff;
+
 }
